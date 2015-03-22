@@ -1,0 +1,5 @@
+docker pull ubuntu:15.04
+docker run ubuntu:15.04 echo Hello, world
+docker ps -l
+ls -la /home
+docker run ubuntu:15.04 ls -la /home
