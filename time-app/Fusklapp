@@ -1,0 +1,4 @@
+FROM node:0.10.37
+ADD app /opt/time-app
+CMD node /opt/time-app/time.js
+EXPOSE 8000
